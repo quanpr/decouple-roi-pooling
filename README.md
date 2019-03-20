@@ -11,7 +11,7 @@ git clone https://github.com/quanpr/decouple-roi-pooling
 ### prerequisites
 
 * Python 2.7 or 3.6
-* Pytorch 0.4.0 (**now it does not support 0.4.1 or higher**)
+* Pytorch 0.4.0 
 * CUDA 8.0 or higher
 
 ### Data Preparation
