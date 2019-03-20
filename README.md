@@ -1,8 +1,7 @@
 # decouple-roi-pooling
-Decouple roi pooling for object detection
+Decouple roi pooling for object detection. You might refer to [github](https://github.com/quanpr/decouple-roi-pooling)
 
 ## Preparation
-
 
 First of all, clone the code
 ```
@@ -53,9 +52,9 @@ To train a decouple ROI pooling model with ResNet18 on pascal_voc, simply run:
 
 We benchmark our code thoroughly on three datasets: pascal voc using ResNet18. Below are the results:
 
-1). PASCAL VOC 07+12 (Train/Test: 07+12trainval/07test, scale=600, ROI Align)
+PASCAL VOC 07+12 (Train/Test: 07+12trainval/07test, scale=600, ROI Align)
 
 model    | #GPUs | batch size | lr        | lr_decay | max_epoch     |  time/epoch | mem/GPU | mAP
 ---------|--------|-----|--------|-----|-----|-------|--------|-----
-[VGG-16](https://www.dropbox.com/s/6ief4w7qzka6083/faster_rcnn_1_6_10021.pth?dl=0)     | 2 | 32 | 1e-2 | 10   | 23   |  0.67 hr | 10265MB   | 73.0
-[VGG-16](https://www.dropbox.com/s/cpj2nu35am0f9hp/faster_rcnn_1_9_2504.pth?dl=0)     | 2 | 32 | 1e-2 | 10  | 27  |  0.69 hr | 17830MB   | 72.7
+[ResNet-18](https://drive.google.com/open?id=1UBwV8pLwBKNpRfJacJVYUl5qBcAuSo7k)     | 2 | 32 | 1e-2 | 10   | 23   |  0.67 hr | 10265MB   | 73.0
+[ResNet-18](https://drive.google.com/open?id=1eQhU1Wf6JolPQ03uf_YVpvmf480YFHIF)     | 2 | 32 | 1e-2 | 10  | 27  |  0.69 hr | 17830MB   | 72.7
