@@ -40,7 +40,7 @@ It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Align a
 
 ## Train
 
-Before training, set the right directory to save and load the trained models. Change the arguments "save_dir" and "load_dir" in trainval_net.py and test_net.py to adapt to your environment.
+Before training, set the right directory to save and load the trained models. Change the arguments "save_dir" and "load_dir" in train_model.py to adapt to your environment.
 
 To train a decouple ROI pooling model with ResNet18 on pascal_voc, simply run:
 
@@ -50,7 +50,7 @@ To train a decouple ROI pooling model with ResNet18 on pascal_voc, simply run:
 
 ## Test
 
-We test our model thoroughly on dataset: pascal voc using ResNet18. Below are the results:
+We test our model on dataset: pascal voc using ResNet18. Below are the results:
 
 PASCAL VOC 07+12 (Train/Test: 07+12trainval/07test, scale=600, ROI Align)
 
