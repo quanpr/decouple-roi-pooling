@@ -48,9 +48,9 @@ To train a decouple ROI pooling model with ResNet18 on pascal_voc, simply run:
 	CUDA_VISIBLE_DEVICES=$GPU_ID python train_model.py --dataset pascal_voc_0712 --net res18 --bs 32 --nw 2 --lr 0.01 --lr_decay_step 10 --cuda --disp_interval 10 --epochs 30 --mGPUs --layers 18 --decouple 
 ```
 
-## Benchmarking
+## Test
 
-We benchmark our code thoroughly on three datasets: pascal voc using ResNet18. Below are the results:
+We test our model thoroughly on dataset: pascal voc using ResNet18. Below are the results:
 
 PASCAL VOC 07+12 (Train/Test: 07+12trainval/07test, scale=600, ROI Align)
 
