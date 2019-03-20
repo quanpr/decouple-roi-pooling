@@ -8,6 +8,11 @@ First of all, clone the code
 git clone https://github.com/quanpr/decouple-roi-pooling
 ```
 
+Then, create a folder:
+```
+cd decouple-roi-pooling && mkdir data
+```
+
 ### prerequisites
 
 * Python 2.7 or 3.6
